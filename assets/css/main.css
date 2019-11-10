@@ -14,6 +14,10 @@ html {
 	animation-duration: 3s;
 }
 
+hr {
+	border-top: none;
+}
+
 .wrapper {
 	width: 400px;
 	border: 10px;
@@ -30,8 +34,44 @@ html {
 	font-size: 1.2em;
 }
 
+.submithub {
+	height: 150px;
+	width: 400px;
+}
+
+.channel {
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.name {
+	margin-left: 8em;
+	text-align: left;
+}
+
+.text {
+	margin: 0;
+	margin-left: 8em;
+	text-align: left;
+}
+
+.pfp {
+	max-height: 120px;
+	float: left;
+}
+
 @media screen and (max-width: 410px) {
 	.wrapper {
+		width: 300px;
+	}
+
+	.submithub {
+		width: 300px;
+	}
+
+	.channel {
 		width: 300px;
 	}
 }

@@ -1,0 +1,47 @@
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: url("../images/bg.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    background: rgba(244, 71, 163, 0.7);
+    width: 30vw;
+    height: 150px;
+    font-size: 1.7em;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px;
+}
+
+.smaller {
+    font-size: 0.7em;
+}
+
+p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .card {
+        width: 90vw;
+    }
+}

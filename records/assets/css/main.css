@@ -1,0 +1,74 @@
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 100; }
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('../font/CaviarDreams.ttf');
+}
+
+body {
+    animation: fade-in 3s;
+    color: white;
+    background-color: black;
+    font-family: 'Caviar Dreams';
+}
+
+.logo {
+    margin: 50px;
+    max-height: 200px;
+}
+
+.releases {
+    padding: 20px;
+    text-align: left;
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+    width: 500px;
+}
+
+.release p {
+    display: inline;
+    margin-left: 5px;
+}
+
+.release img {
+    margin-top: 20px;
+}
+
+.release {
+    color: white;
+    text-decoration: none;
+}
+
+.cover {
+    max-height: 100px;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact {
+    padding: 20px;
+    text-align: left;
+    border: 1px rgba(255, 255, 255, 0.486) solid;
+    width: 500px;
+}
+
+.center {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 500px) {
+    .releases {
+        width: 300px;
+    }
+
+    .contact {
+        width: 300px;
+    }
+}
